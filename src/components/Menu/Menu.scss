@@ -1,8 +1,14 @@
 .menu {
     display: flex;
+    button {
+        color: black;
+        margin: 2px;
+        font-size: 20px;
+    }
     button:hover {
         color: white;
-        background-color: grey;
+        background-color: rgb(218, 206, 206);
         font-weight: bolder;
+        border-radius: 5px;
     }
 }

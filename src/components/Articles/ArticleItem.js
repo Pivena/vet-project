@@ -2,19 +2,19 @@ import { Button, Card, CardActions, CardContent } from '@mui/material'
 import './ArticleItem.scss'
 import React from 'react'
 
-export const ArticleItem = () => {
+export const ArticleItem = ({ name, description, image }) => {
     return (
         <Card>
-            <CardContent>
-                <h4>Shitsu</h4>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                    Saepe, tempora! Quibusdam quia voluptatibus ab nemo quis!
-                </p>
+            <CardContent className="card-content">
+                <div className="article-img">
+                    <img src={image} alt="" />
+                </div>
+                <h4 className="article-title">{name}</h4>
+                <p className="article-features">{description}</p>
             </CardContent>
             <CardActions className="category">
-                <Button variant="contained">Category</Button>
-                <Button variant="contained">Like</Button>
+                <Button variant="secondary">Category</Button>
+                <Button variant="secondary">Like</Button>
             </CardActions>
         </Card>
     )
