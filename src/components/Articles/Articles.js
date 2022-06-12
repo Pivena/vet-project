@@ -6,9 +6,7 @@ import articlesArray from 'utils/ArticlesArray'
 export const Articles = () => {
     return (
         <>
-            <Typography variant="h3" align="center">
-                Articles
-            </Typography>
+            <Typography variant="h3" align="center"></Typography>
 
             <Grid
                 container
