@@ -39,5 +39,17 @@
     display: flex;
 }
 
+.navlink {
+    color: black;
+    margin: 2px;
+    font-size: 15px;
+    text-decoration: none;
+}
+.navlink:hover {
+    color: white;
+    background-color: rgb(218, 206, 206);
+    font-weight: bolder;
+    border-radius: 5px;
+}
 
 

@@ -27,7 +27,6 @@ export const Menu = () => {
                         About
                     </NavLink>
                 </Button>
-
                 <Button>
                     <NavLink
                         to="/contact"
@@ -47,11 +46,6 @@ export const Menu = () => {
                     >
                         Category
                     </NavLink>
-                    <ul className="submenu">
-                        <Button>Shitsu</Button>
-                        <Button>Lapdog</Button>
-                        <Button>Yorkshire Terrier</Button>
-                    </ul>
                 </Button>
             </div>
         </>
