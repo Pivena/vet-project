@@ -32,6 +32,11 @@ export const ArticleItem = ({
                         Category
                     </NavLink>
                 </Button>
+                <Button variant="secondary">
+                    <NavLink to={`/${name}ExtendedPage`} className="navlink">
+                        {name}
+                    </NavLink>
+                </Button>
             </CardActions>
         </Card>
     )

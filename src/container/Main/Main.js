@@ -14,6 +14,9 @@ import 'swiper/scss'
 import 'swiper/scss/navigation'
 import 'swiper/scss/pagination'
 import 'swiper/scss/scrollbar'
+import { ShitsuExtendedPage } from 'pages/ShitsuExtendedPage/ShitsuExtendedPage'
+import { LapdogExtendedPage } from 'pages/LapdogExtendedPage/LapdogExtendedPage'
+import { YorkshireTerrierExtendedPage } from 'pages/YorkshireTerrierExtendedPage/YorkshireTerrirerExtendedPage'
 
 export const Main = ({ toggleLikeState, articlesLikeState }) => {
     return (
@@ -72,6 +75,18 @@ export const Main = ({ toggleLikeState, articlesLikeState }) => {
                     <Route path="/category" element={<CategoryPage />} />
                     <Route path="/about" element={<AboutPage />} />
                     <Route path="/contact" element={<ContactPage />} />
+                    <Route
+                        path="/ShitsuExtendedPage"
+                        element={<ShitsuExtendedPage />}
+                    />
+                    <Route
+                        path="/LapdogExtendedPage"
+                        element={<LapdogExtendedPage />}
+                    />
+                    <Route
+                        path="/YorkshireTerrierExtendedPage"
+                        element={<YorkshireTerrierExtendedPage />}
+                    />
                 </Routes>
             </Container>
         </>

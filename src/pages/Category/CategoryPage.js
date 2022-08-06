@@ -6,7 +6,6 @@ import React, { useState } from 'react'
 export const CategoryPage = () => {
     const [articlesLikeState, setArticlesLikeState] = useState({
         1: true,
-        2: true,
     })
 
     const toggleLikeState = (articleId) =>

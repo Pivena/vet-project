@@ -5,6 +5,7 @@ const articles = [
         description: 'Lorem ipsum dolor',
         image: 'images/shitsu-1.jpg',
         category: 'shitsu',
+        isShitsu: 'true',
     },
     {
         id: 2,
@@ -13,6 +14,7 @@ const articles = [
         image: 'images/shitsu-2.jpg',
         category: 'shitsu',
         ishome: 'true',
+        isShitsu: 'true',
     },
     {
         id: 3,
@@ -20,6 +22,7 @@ const articles = [
         description: 'Lorem ipsum dolor sit amet ab nemo quis!',
         image: 'images/shitsu-3.jpg',
         category: 'shitsu',
+        isShitsu: 'true',
     },
     {
         id: 4,
@@ -27,6 +30,7 @@ const articles = [
         description: 'Lorem ipsum dolor sit amet ab nemo quis!',
         image: 'images/lapdog-1.jpg',
         category: 'lapdog',
+        isLapdog: 'true',
         ishome: 'true',
     },
     {
@@ -35,6 +39,7 @@ const articles = [
         description: 'Lorem ipsum dolor sit amet ab nemo quis!',
         image: 'images/lapdog-2.jpg',
         category: 'lapdog',
+        isLapdog: 'true',
     },
     {
         id: 6,
@@ -42,28 +47,32 @@ const articles = [
         description: 'Lorem ipsum dolor sit amet ab nemo quis!',
         image: 'images/lapdog-3.jpg',
         category: 'lapdog',
+        isLapdog: 'true',
     },
     {
         id: 7,
-        name: 'Yorkshire Terrier',
+        name: 'YorkshireTerrier',
         description: 'Lorem ipsum dolor sit amet ab nemo quis!',
         image: 'images/yorkshire-terrier-1.jpg',
         category: 'yorkshire',
+        isYorkshireTerrier: 'true',
         ishome: 'true',
     },
     {
         id: 8,
-        name: 'Yorkshire Terrier',
+        name: 'YorkshireTerrier',
         description: 'Lorem ipsum dolor sit amet ab nemo quis!',
         image: 'images/yorkshire-terrier-2.jpg',
         category: 'yorkshire',
+        isYorkshireTerrier: 'true',
     },
     {
         id: 9,
-        name: 'Yorkshire Terrier',
+        name: 'YorkshireTerrier',
         description: 'Lorem ipsum dolor sit amet ab nemo quis!',
         image: 'images/yorkshire-terrier-3.jpg',
         category: 'yorkshire',
+        isYorkshireTerrier: 'true',
     },
 ]
 
